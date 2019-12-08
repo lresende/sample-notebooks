@@ -14,8 +14,11 @@
 # limitations under the License.
 #
 
-outputs/
-generated-pipelines/
+# temporary folder for outputs
+outputs/*
+!outputs/.gitkeep
+
+# generated pipeline data files
 community_contributions.csv
 community_stats.csv
 contributors.csv
